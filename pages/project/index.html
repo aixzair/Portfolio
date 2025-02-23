@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link rel="icon" href="./../../public/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./../../public/css/app.css" />
+    <script type="module" src="./../../public/js/app.js"></script>
+    <script type="module" src="./../../public/js/project/index.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../modules/bootstrap/css/bootstrap.css" />
+    <script src="./../../modules/bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+<body class="d-flex flex-column h-100">
+    <header id="header"></header>
+    <main role="main" class="container">
+        <div id="cards" class="row g-3 mt-2"></div>
+    </main>
+    <footer id="footer" class="mt-auto"></footer>
+
+    <template id="card-template">
+        <a class="col-md-4 text-decoration-none" href="__LINK__">
+            <div class="card">
+                <img src="__CARD__" class="card-img-top" alt="__TITLE__">
+                <div class="card-body">
+                    <p class="card-text text-center">__TITLE__</p>
+                </div>
+            </div>
+        </a>
+    </template>
+</body>
+</html>

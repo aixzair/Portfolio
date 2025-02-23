@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Portfolio</title>
-    <link rel="icon" href="/images/icon.png" type="image/x-icon"/>
+    <link rel="icon" href="./../public/favicon.png" type="image/x-icon"/>
 
-    <link rel="stylesheet" href="./../css/style.css"/>
-    <script src="./../js/main.js" type="module"></script>
+    <link rel="stylesheet" href="./../public/css/app.css"/>
+    <script type="module" src="./../public/js/app.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./../modules/bootstrap/css/bootstrap.css"/>
+    <script src="./../modules/bootstrap/js/bootstrap.bundle.js"></script>
 </head>
-<body>
-    <header data-actif="Portfolio"></header>
-    <main class="contenu align-center">
-        <h1 class="my-3">Alexandre Lerosier</h1>
+<body class="d-flex flex-column h-100">
+    <header id="header"></header>
+    <main role="main" class="container">
+        <h1 class="my-3 text-center">Alexandre Lerosier</h1>
 
         <div class="row mt-5">
-            <section class="col-6 flex-column-center">
-                <img src="./../images/profil_avatar.png" alt="mon avatar" id="profilAvatar">
+            <section class="col-md-6">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="mb-4 d-flex flex-column justify-content-center">
+                            <img class="img-fluid" src="./../public/images/avatar.png" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
             </section>
-            <section class="col-6">
+            <section class="col-md-6">
                 <p>
                     Né le 3 décembre 2004, je suis un développeur en formation, actuellement en deuxième année de BUT
                     informatique à Caen.
@@ -38,9 +50,10 @@
                 <p>
                     J'ai déjà concrétisé de nombreux projets dans les domaines du web, des bases de
                     données, ainsi que des applications en Java et en langage C.
-                </p>                
+                </p>           
             </section>
         </div>
     </main>
+    <footer id="footer" class="mt-auto"></footer>
 </body>
 </html>

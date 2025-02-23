@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link rel="icon" href="./../../public/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./../../public/css/app.css"/>
+    <script type="module" src="./../../public/js/app.js"></script>
+    <script type="module" src="./../../public/js/project/details.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./../../modules/bootstrap/css/bootstrap.css" />
+    <script src="./../../modules/bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+<body class="d-flex flex-column h-100">
+    <header id="header"></header>
+    <main role="main" class="container">
+        <i>Année : <span id="year"></span></i>
+        
+        <h2 id="title">TEST</h2>
+        <p id="summary"></p>
+
+        <section id="links-section">
+            <h2>Liens vers le projet</h2>
+            <ul id="links"></ul>
+        </section>
+        
+        <section id="keyPoints-section">
+            <h2>Langages et outils</h2>
+            <ul id="keyPoints"></ul>
+        </section>
+        
+        <sectoin id="pictures-section">
+            <h2>Aperçu</h2>
+            <div class="container text-center">
+                <div id="pictures" class="row g-2 justify-content-evenly"></div>
+            </div>
+        </sectoin>
+    </main>
+    <footer id="footer" class="mt-auto"></footer>
+
+    <template id="picture-template">
+        <div class="col-4 p-2">
+            <img src="__SRC__" alt="__ALT__" class="img-fluid"/>
+        </div>
+    </template>
+</body>
+</html>

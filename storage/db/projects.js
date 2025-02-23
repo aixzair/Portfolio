@@ -1,0 +1,82 @@
+const projects = [
+    {
+        "id": 0,
+        "title": "P'tit cuisto",
+        "year": 2023,
+        "summary": "Un projet universitaire, réalisé par moi ainsi que 3 autres collègues. Il s'inspire du site Marmiton où l'on peut partager des recettes de cuisine et poster des commentaires.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/tomleblais/TD2_ECTA_PtiCuisto"
+            }
+        ],
+        "keyPoints": [
+            "Développé en PHP",
+            "Mise en œuvre du patron de conception MVC",
+            "Gestion des permissions",
+            "Utilisation des conventions de nommage Git",
+            "Utilisation de XAMPP"
+        ],
+        "pictures": 5
+    },
+    {
+        "id": 1,
+        "title": "Gobblet gobblers",
+        "year": 2022,
+        "summary": "Cette première version est une application console développée par équipe de 2 en langage C lors d'un projet universitaire en première année de BUT informatique.",
+        "links": [],
+        "keyPoints": [
+            "Développé en C",
+            "Application console"
+        ],
+        "pictures": 3
+    },
+    {
+        "id": 2,
+        "title": "Instant weather",
+        "year": 2023,
+        "summary": "C'est une application web pour connaître la météo des 7 prochains jours dans une ville sélectionnée. Je l'ai développée au sein d'une équipe de 4 personnes et j'ai utilisé des API.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/tomleblais/TD2_Coolcoolcoolcool_IW"
+            },
+            {
+                "label": "Utiliser l'application",
+                "href": "https://tomleblais.github.io/TD2_Coolcoolcoolcool_IW/"
+            }
+        ],
+        "keyPoints": [
+            "Utilisation d'API pour le CSS",
+            "Utilisation d'API pour les villes et la météo",
+            "Travailler dans une équipe",
+            "Gérer les entrées utilisateurs"
+        ],
+        "pictures": 2
+    },
+    {
+        "id": 3,
+        "title": "Pomodoro",
+        "year": 2023,
+        "summary": "J'ai réalisé un pomodoro permettant de gérer votre temps de travail et de pause, afin de travailler plus efficacement.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/aixzair/pomodoro"
+            },
+            {
+                "label": "Utiliser l'application",
+                "href": "https://aixzair.github.io/pomodoro/"
+            }
+        ],
+        "keyPoints": [
+            "Création d'un premier site web responsive",
+            "Rédaction précise d'un README",
+            "Utilisation du local storage",
+            "Mise en place d'une animation"
+        ],
+        "pictures": 2
+    }
+];
+
+export default projects;
