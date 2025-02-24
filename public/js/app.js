@@ -1,8 +1,6 @@
 import Config from './../../app/Config.js';
 
 // Load the header
-console.log(`header : ${Config.root()}/pages/partials/header.html`);
-
 fetch(`${Config.root()}/pages/partials/header.html`)
 .then(response => response.text())
 .then(header => {

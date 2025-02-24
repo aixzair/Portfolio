@@ -12,7 +12,7 @@ projects.forEach(project => {
 
     card = card.replaceAll("__TITLE__", project.title);
     card = card.replaceAll("__LINK__", `${Config.root()}/pages/project/details.html?id=${project.id}`);
-    card = card.replaceAll("__CARD__", `./../../../storage/projects/${project.id}/card.png`);
+    card = card.replaceAll("__CARD__", `${Config.root()}/storage/projects/${project.id}/card.png`);
 
     cards.innerHTML += card;
 });
