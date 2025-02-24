@@ -1,9 +1,7 @@
 import Config from './../../app/Config.js';
 
 // Load the header
-console.log(`header : ${window.location.origin}/pages/partials/header.html`);
-
-fetch(`${window.location.origin}/pages/partials/header.html`)
+fetch(`${Config.root()}/pages/partials/header.html`)
 .then(response => response.text())
 .then(header => {
     header = header.replaceAll('__PROFIL__', Config.root() + '/pages/profil.html');
@@ -15,7 +13,7 @@ fetch(`${window.location.origin}/pages/partials/header.html`)
 .catch(error => console.error(error));
 
 // Load the footer
-fetch(`${window.location.origin}/pages/partials/footer.html`)
+fetch(`${Config.root()}/pages/partials/footer.html`)
 .then(response => response.text())
 .then(data => {
     document.getElementById('footer').innerHTML = data;
