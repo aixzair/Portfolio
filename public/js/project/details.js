@@ -63,7 +63,7 @@ if (project.pictures === 0) {
     for (let i = 1; i <= project.pictures; i++) {
         let picture = pictureTemplate;
 
-        picture = picture.replaceAll('__SRC__', `./../../../storage/projects/${project.id}/img${i}.png`);
+        picture = picture.replaceAll('__SRC__', `./../../storage/projects/${project.id}/img${i}.png`);
         picture = picture.replaceAll('__ALT__', `${project.title} - ${i}`);
 
         pictures.innerHTML += picture;
