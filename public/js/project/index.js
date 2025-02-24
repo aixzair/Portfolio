@@ -1,4 +1,4 @@
-import Config from './../../../app/config.js';
+import Config from './../../../app/Config.js';
 import projects from './../../../storage/db/projects.js';
 
 const cards = document.getElementById('cards');

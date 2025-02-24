@@ -1,4 +1,4 @@
-import Config from './../../app/config.js';
+import Config from './../../app/Config.js';
 
 // Load the header
 fetch(`${window.location.origin}/pages/partials/header.html`)
