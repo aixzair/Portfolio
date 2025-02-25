@@ -1,7 +1,7 @@
 const projects = [
     {
         "id": 0,
-        "title": "P'tit cuisto",
+        "title": "P'tit Cuisto",
         "year": 2023,
         "summary": "Un projet universitaire, réalisé par moi ainsi que 3 autres collègues. Il s'inspire du site Marmiton où l'on peut partager des recettes de cuisine et poster des commentaires.",
         "links": [
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         "id": 1,
-        "title": "Gobblet gobblers",
+        "title": "Gobblet Gobblers (Console)",
         "year": 2022,
         "summary": "Cette première version est une application console développée par équipe de 2 en langage C lors d'un projet universitaire en première année de BUT informatique.",
         "links": [],
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         "id": 2,
-        "title": "Instant weather",
+        "title": "Instant Weather",
         "year": 2023,
         "summary": "C'est une application web pour connaître la météo des 7 prochains jours dans une ville sélectionnée. Je l'ai développée au sein d'une équipe de 4 personnes et j'ai utilisé des API.",
         "links": [
@@ -76,6 +76,27 @@ const projects = [
             "Mise en place d'une animation"
         ],
         "pictures": 2
+    },
+    {
+        "id": 4,
+        "title": "Gobblet Gobblers (WEB)",
+        "year": 2024,
+        "summary": "Cette application et la seconde version de gobblet gobblers. Elle est développée en HTML, CSS et JavaScript.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/aixzair/gobblet-gobblers"
+            },
+            {
+                "label": "Utiliser l'application",
+                "href": "https://aixzair.github.io/gobblet-gobblers/"
+            }
+        ],
+        "keyPoints": [
+            "Développé en HTML, CSS et JavaScript",
+            "Première utilisation des modules JavaScript"
+        ],
+        "pictures": 3
     }
 ];
 
