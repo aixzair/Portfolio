@@ -2,7 +2,7 @@ const projects = [
     {
         "id": 0,
         "title": "P'tit Cuisto",
-        "year": 2023,
+        "year": 2022,
         "summary": "Un projet universitaire, réalisé par moi ainsi que 3 autres collègues. Il s'inspire du site Marmiton où l'on peut partager des recettes de cuisine et poster des commentaires.",
         "links": [
             {
@@ -34,7 +34,7 @@ const projects = [
     {
         "id": 2,
         "title": "Instant Weather",
-        "year": 2023,
+        "year": 2022,
         "summary": "C'est une application web pour connaître la météo des 7 prochains jours dans une ville sélectionnée. Je l'ai développée au sein d'une équipe de 4 personnes et j'ai utilisé des API.",
         "links": [
             {
@@ -57,7 +57,7 @@ const projects = [
     {
         "id": 3,
         "title": "Pomodoro",
-        "year": 2023,
+        "year": 2022,
         "summary": "J'ai réalisé un pomodoro permettant de gérer votre temps de travail et de pause, afin de travailler plus efficacement.",
         "links": [
             {
@@ -80,7 +80,7 @@ const projects = [
     {
         "id": 4,
         "title": "Gobblet Gobblers (WEB)",
-        "year": 2024,
+        "year": 2023,
         "summary": "Cette application et la seconde version de gobblet gobblers. Elle est développée en HTML, CSS et JavaScript.",
         "links": [
             {
