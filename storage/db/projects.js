@@ -97,6 +97,27 @@ const projects = [
             "Première utilisation des modules JavaScript"
         ],
         "pictures": 3
+    },
+    {
+        "id": 5,
+        "title": "SAÉ 5 : Plongestion",
+        "year": 2025,
+        "summary": "Au sein d'une équipe de 9 personnes, nous avons relevé le défi de développer une solution complète"
+        + " pour la gestion de clubs de plongée. L'objectif ? Concevoir un serveur web doté d'un API.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/aixzair/SAE5_Plongestion"
+            },
+        ],
+        "keyPoints": [
+            "MySQL pour la gestion des données",
+            "Laravel (PHP) avec TailwindCSS pour le serveur web et l'API",
+            "Développement d'interfaces utilisateur érgonomiques",
+            "Collaboration en équipe avec la méthode Agile",
+            "Présentation des avancées et démonstration au client"
+        ],
+        "pictures": 4
     }
 ];
 
