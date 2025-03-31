@@ -8,11 +8,11 @@ if (project === undefined) {
     window.location.href = '/error/404.html';
 }
 
-// Get hmtl elements
+// Get html elements
 
 const title = document.getElementById('title');
 const summary = document.getElementById('summary');
-const year = document.getElementById('year');
+const date = document.getElementById('date');
 
 const linksSection = document.getElementById('links-section');
 const links = document.getElementById('links');
@@ -28,7 +28,8 @@ const pictures = document.getElementById('pictures');
 
 title.textContent = project.title;
 summary.textContent = project.summary;
-year.textContent = project.year;
+date.textContent = (new Date(project.date))
+    .toLocaleString('fr-FR', { month: 'long', year: 'numeric' });;
 
 if (project.links.length === 0) {
     linksSection.style.display = 'none';

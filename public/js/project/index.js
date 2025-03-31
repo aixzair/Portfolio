@@ -5,7 +5,7 @@ const cards = document.getElementById('cards');
 const template = document.getElementById('card-template')
     .innerHTML;
 
-projects.sort((a, b) => b.year - a.year);
+projects.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 projects.forEach(project => {
     let card = template;

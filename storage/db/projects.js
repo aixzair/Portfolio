@@ -2,7 +2,7 @@ const projects = [
     {
         "id": 0,
         "title": "P'tit Cuisto",
-        "year": 2022,
+        "date": "2023-11-12",
         "summary": "Un projet universitaire, réalisé par moi ainsi que 3 autres collègues. Il s'inspire du site Marmiton où l'on peut partager des recettes de cuisine et poster des commentaires.",
         "links": [
             {
@@ -22,7 +22,7 @@ const projects = [
     {
         "id": 1,
         "title": "Gobblet Gobblers (Console)",
-        "year": 2022,
+        "date": "2022-11-00",
         "summary": "Cette première version est une application console développée par équipe de 2 en langage C lors d'un projet universitaire en première année de BUT informatique.",
         "links": [],
         "keyPoints": [
@@ -34,7 +34,7 @@ const projects = [
     {
         "id": 2,
         "title": "Instant Weather",
-        "year": 2022,
+        "date": "2023-10-02",
         "summary": "C'est une application web pour connaître la météo des 7 prochains jours dans une ville sélectionnée. Je l'ai développée au sein d'une équipe de 4 personnes et j'ai utilisé des API.",
         "links": [
             {
@@ -57,7 +57,7 @@ const projects = [
     {
         "id": 3,
         "title": "Pomodoro",
-        "year": 2022,
+        "date": "2023-11-11",
         "summary": "J'ai réalisé un pomodoro permettant de gérer votre temps de travail et de pause, afin de travailler plus efficacement.",
         "links": [
             {
@@ -80,7 +80,7 @@ const projects = [
     {
         "id": 4,
         "title": "Gobblet Gobblers (WEB)",
-        "year": 2023,
+        "date": "2023-10-11",
         "summary": "Cette application et la seconde version de gobblet gobblers. Elle est développée en HTML, CSS et JavaScript.",
         "links": [
             {
@@ -101,7 +101,7 @@ const projects = [
     {
         "id": 5,
         "title": "Plongestion",
-        "year": 2025,
+        "date": "2025-01-28",
         "summary": "Au sein d'une équipe de 9 personnes, nous avons relevé le défi de développer une solution complète"
         + " pour la gestion de clubs de plongée. L'objectif ? Concevoir un serveur web doté d'un API.",
         "links": [
@@ -122,7 +122,7 @@ const projects = [
     {
         "id": 6,
         "title": "VikingBus",
-        "year": 2023,
+        "date": "2023-06-00",
         "summary": "Au sein d'une équipe de 9 personnes, nous avons relevé le défi de"
         + "développer une solution complète pour la gestion d'un site de transport.",
         "links": [
@@ -143,7 +143,7 @@ const projects = [
     {
         "id": 7,
         "title": "Gribouille",
-        "year": 2023,
+        "date": "2023-03-00",
         "summary": "Application de bureau similaire à Paint, avec plusieurs options avancées.",
         "links": [
             {
