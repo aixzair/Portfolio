@@ -100,7 +100,7 @@ const projects = [
     },
     {
         "id": 5,
-        "title": "SAÉ 5 : Plongestion",
+        "title": "Plongestion",
         "year": 2025,
         "summary": "Au sein d'une équipe de 9 personnes, nous avons relevé le défi de développer une solution complète"
         + " pour la gestion de clubs de plongée. L'objectif ? Concevoir un serveur web doté d'un API.",
