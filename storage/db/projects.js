@@ -139,6 +139,24 @@ const projects = [
             "Présentation des avancées et démonstration au client"
         ],
         "pictures": 5
+    },
+    {
+        "id": 7,
+        "title": "Gribouille",
+        "year": 2023,
+        "summary": "Application de bureau similaire à Paint, avec plusieurs options avancées.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/aixzair/SAE2_SiteBus"
+            },
+        ],
+        "keyPoints": [
+            "JavaFX",
+            "Développement d'interfaces utilisateur érgonomiques",
+            "Utilisation des patrons de conception"
+        ],
+        "pictures": 1
     }
 ];
 
