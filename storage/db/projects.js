@@ -118,6 +118,27 @@ const projects = [
             "Présentation des avancées et démonstration au client"
         ],
         "pictures": 4
+    },
+    {
+        "id": 6,
+        "title": "VikingBus",
+        "year": 2023,
+        "summary": "Au sein d'une équipe de 9 personnes, nous avons relevé le défi de"
+        + "développer une solution complète pour la gestion d'un site de transport.",
+        "links": [
+            {
+                "label": "Répertoire GitHub",
+                "href": "https://github.com/aixzair/SAE2_SiteBus"
+            },
+        ],
+        "keyPoints": [
+            "SQLDevelopper pour la gestion des données",
+            "PHP natif",
+            "Développement d'interfaces utilisateur érgonomiques",
+            "Collaboration en équipe avec la méthode Agile",
+            "Présentation des avancées et démonstration au client"
+        ],
+        "pictures": 5
     }
 ];
 
